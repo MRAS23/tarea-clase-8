@@ -60,6 +60,9 @@ function validarFormulario(event) {
   if (esExito) {
     document.querySelector("#exito").className = "";
     $form.className = "oculto";
+    setTimeout(function () {
+      window.location.href = "wishlist.html";
+    }, 5000);
   }
 
   event.preventDefault();
