@@ -1,0 +1,11 @@
+#calculo {
+  font-style: bold;
+}
+
+#calculo input {
+  font-size: large;
+}
+
+.error {
+  border: 2px solid red;
+}
